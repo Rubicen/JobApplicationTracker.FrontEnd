@@ -15,7 +15,7 @@ This is a React + TypeScript frontend for the Job Application Tracker project. I
 ## Getting Started
 
 ### 1. Clone the Repository
-```git clone https://github.com/Rubicen cd jobapplicationtracker.frontend```
+```git clone https://github.com/Rubicen cd JobApplicationTracker.FrontEnd```
 
 ### 2. Install Dependencies
 ```npm install```
