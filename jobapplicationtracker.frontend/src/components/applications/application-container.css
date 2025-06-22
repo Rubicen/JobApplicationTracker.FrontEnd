@@ -1,0 +1,11 @@
+.MuiBox-root {
+    border-radius: 16px;
+}
+.card {
+    border-radius: 0 0 16px 16px;
+    background-color: rgb(20,20,20);
+}
+
+.MuiToolbar-root {
+    padding-right: 16px !important;
+}

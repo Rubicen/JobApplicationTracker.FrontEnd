@@ -1,0 +1,12 @@
+.add-button {
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    width: 40px;
+    min-width: 40px;
+}
+.add-button > span {
+    margin: 0px;
+}
+.add-button > span > svg { 
+    color: white;
+}

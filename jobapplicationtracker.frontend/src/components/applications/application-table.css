@@ -1,0 +1,13 @@
+
+.MuiBox-root {
+    color: white;
+    background-color: grey;
+}
+
+.application-table-container {
+
+}
+
+.status-dropdown > div > div {
+    height: 50px;
+}

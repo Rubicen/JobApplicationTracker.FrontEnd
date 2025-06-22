@@ -1,0 +1,17 @@
+.header {
+    background: linear-gradient(90deg, rgb(26, 119, 210, 0.4) 0%, rgb(66, 165, 245, 0.4) 100%);
+    color: #fff;
+    padding: 2rem 1rem;
+    box-shadow: 0 4px 12px rgba(25, 118, 210, 0.15);
+    text-align: center;
+    border-radius: 16px 16px 0 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-shadow: 1px 2px 8px rgba(25, 118, 210, 0.2);
+}
