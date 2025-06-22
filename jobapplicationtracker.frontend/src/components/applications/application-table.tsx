@@ -56,8 +56,8 @@ const ApplicationTable: React.FC<ApplicationTableProps> = ({ applications }) => 
             hideable: false
         },
         {
-            field: 'jobTitle',
-            headerName: 'Job Title',
+            field: 'position',
+            headerName: 'Position',
             minWidth: 120,
             flex: 0.2,
             editable: true

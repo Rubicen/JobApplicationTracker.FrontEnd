@@ -15,7 +15,7 @@ export function mapApplicationToRow(application: Application): ApplicationRow {
 
 export function toApplicationCreateDto(app: Omit<Application, 'id'>): ApplicationCreateDto {
     return {
-        jobTitle: app.jobTitle,
+        position: app.position,
         companyName: app.companyName,
         applicationDate: app.applicationDate,
         status: app.status,
@@ -26,7 +26,7 @@ export function toApplicationCreateDto(app: Omit<Application, 'id'>): Applicatio
 export function toApplicationUpdateDto(app: Application): ApplicationUpdateDto {
     return {
         id: app.id,
-        jobTitle: app.jobTitle,
+        position: app.position,
         companyName: app.companyName,
         applicationDate: app.applicationDate,
         status: app.status,

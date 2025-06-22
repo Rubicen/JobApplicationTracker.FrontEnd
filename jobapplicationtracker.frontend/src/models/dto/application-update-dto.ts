@@ -2,7 +2,7 @@ import type { Status } from "../status";
 
 export interface ApplicationUpdateDto {
     id: number;
-    jobTitle: string;
+    position: string;
     companyName: string;
     applicationDate: Date;
     status: Status;

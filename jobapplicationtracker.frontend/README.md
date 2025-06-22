@@ -18,6 +18,7 @@ This is a React + TypeScript frontend for the Job Application Tracker project. I
 ```git clone https://github.com/Rubicen cd JobApplicationTracker.FrontEnd```
 
 ### 2. Install Dependencies
+In a terminal from the project root, navigate to jobapplicationtracker.frontend and run:
 ```npm install```
 ### 3. Configure API Proxy (Optional)
 
@@ -35,3 +36,9 @@ services/           # API service functions
 index.css           # Global styles 
 main.tsx            # App entry point 
 App.tsx             # Root component
+
+## Assumptions
+Layout is fine to be mostly generic from material-ui
+Using slightly tweaked naming due to felt easier to read
+Minimal ui, no user management, no authentication required
+UI Assurance testing not required

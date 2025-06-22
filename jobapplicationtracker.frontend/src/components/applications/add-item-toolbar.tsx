@@ -33,7 +33,7 @@ const AddItemToolbar: React.FC<AddItemToolbarProps> = ({ rows, setRows, setRowMo
             ...rows,
             {
                 id,
-                jobTitle: "",
+                position: "",
                 companyName: "",
                 applicationDate: new Date(),
                 status: StatusValues[0] as Status,
@@ -43,7 +43,7 @@ const AddItemToolbar: React.FC<AddItemToolbarProps> = ({ rows, setRows, setRowMo
         ]);
         setRowModesModel((oldModel: GridRowModesModel) => ({
             ...oldModel,
-            [id]: { mode: GridRowModes.Edit, fieldToFocus: "jobTitle" },
+            [id]: { mode: GridRowModes.Edit, fieldToFocus: "position" },
         }));
     };
 
